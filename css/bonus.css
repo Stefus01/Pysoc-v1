@@ -1,0 +1,10 @@
+.rouge {
+    background: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.jb-background{
+    background-image:url(../pics/bg.webp); /* url (..) destination du dossier ...*/
+    background-size: cover;
+    color: #fff;
+}

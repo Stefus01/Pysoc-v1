@@ -1,0 +1,117 @@
+/******KACEL_STEPHANE_11/04/2022-T10:12:59:Z+1*******/
+/*MDN - Modzilla developer network*/
+
+/*LOTR font*/
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html{
+    height: 100%; 
+}
+
+body {/* posiblité couleur de fond standard*/
+    margin: 0;
+    height: 100vh ;
+    background: red;
+    background: rgb(133, 250, 180) ; /*valeur decimal*/
+    background: #85FAB4; /*valeur HEXA*/
+    background: hsl(210,60%,40%); /*valeur prisme angle,saturation,luminosité*/
+    background: rgba(0, 255, 127, .2);
+    background: hsla(240, 25%, 75%, .75);
+    /*background: #0000ffbb; /* bb transparent 3/4*/
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(126, 163, 212));
+    /*background-image: radial-gradient(#0ff,#ff0);*/
+    font-family:sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Rock Salty';
+}
+header {
+    /*height: 23vh;*/
+    display: flex;
+    background: linear-gradient()  ;
+    justify-content: space-between;
+}
+
+/*mise en forme dans un header*/
+
+.HdImg{
+    /* height: 100%; */
+    height: 11rem;
+}
+
+h1{
+    letter-spacing: 1rem;
+    font-weight: bold;
+}
+
+.Pres {
+    padding-left: 43rem ;
+}
+
+
+pre{
+    font-size: 1.1rem;
+}
+
+#members {
+    background-image: #b5f 2rem; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.member{
+    width: 13rem;
+    text-align: center;
+    border: #000 solid 0.1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.member img{ /*photo profile*/
+    width: 80%; 
+    margin: 10%;
+    border-radius: 75%; /* cercle*/
+}
+
+.boy{
+    background-image: linear-gradient(rgb(90, 103, 223),#fff); /*Dégradé majenta au blanc, carte*/
+}
+
+.girl{
+    background-image:linear-gradient(rgb(143, 39, 190),#fff); /*Degradé vert au blanc, carte*/
+}
+header, #intro{
+    width: 90%;
+    margin: auto;
+}
+
+#menu {
+    margin: 2rem 0rem; /* Haut Bas marge 2 rem et Gauche Droite 0*/
+    background: rgb(200, 203, 240);
+    padding: 0.1rem 0rem;
+    position: sticky;/*barre qui va rester afficher sur l'ecran en scrollant*/
+    top:0; /*position du pixel sur le quel il va s'arreter en px*/
+}
+
+#menu ul{  /*va dans menu qui déscend dans ul*/
+    padding: 0; /*met espace à 0*/
+    list-style: none; /*désactive les points '*' */
+    display: flex; /* */
+    flex-wrap: wrap; /* */
+    justify-content:space-evenly ; /* cree un éspace*/
+}
+
+#menu a{ /*Toute balise 'a' dans 'menu'*/
+    font-family:'Rock Salt', sans-serif;
+    color: rgb(173, 75, 192);
+    text-decoration: none;
+}
+
+#menu a:hover{   /* :hover = sous class & inverse colors when cursor on link */
+    background:rgb(204, 134, 218);
+    color:rgb(255, 255, 255) ;
+    padding: .3rem; 
+    transition: all 450ms ease-in-out;
+}
